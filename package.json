@@ -1,7 +1,16 @@
 {
     "name": "uniconst",
     "version": "1.0.0",
-    "description": "",
+    "description": "uni（统一）+ const，表达“统一常量”概念",
+    "keywords": [
+        "constant",
+        "uniconst",
+        "typescript",
+        "enum",
+        "utility",
+        "mapping",
+        "label-map"
+    ],
     "homepage": "https://github.com/kiccer/uniconst#readme",
     "bugs": {
         "url": "https://github.com/kiccer/uniconst/issues"
