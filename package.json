@@ -1,7 +1,7 @@
 {
     "name": "uniconst",
     "version": "1.0.0",
-    "description": "uni（统一）+ const，表达“统一常量”概念",
+    "description": "A lightweight TypeScript utility for unified constant management with value-label mapping and type-safe access",
     "keywords": [
         "constant",
         "uniconst",
@@ -30,6 +30,11 @@
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "README.zh_CN.md"
+    ],
     "scripts": {
         "build": "tsup",
         "prepublishOnly": "npm run build",
