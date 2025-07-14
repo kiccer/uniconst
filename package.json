@@ -1,0 +1,33 @@
+{
+    "name": "uniconst",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/kiccer/uniconst#readme",
+    "bugs": {
+        "url": "https://github.com/kiccer/uniconst/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kiccer/uniconst.git"
+    },
+    "license": "MIT",
+    "author": "kiccer <1072907338@qq.com>",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "main": "dist/index.cjs",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup",
+        "prepublishOnly": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "tsup": "^8.5.0",
+        "typescript": "^5.8.3"
+    }
+}
