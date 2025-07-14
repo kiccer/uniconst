@@ -1,6 +1,6 @@
 {
     "name": "uniconst",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A lightweight TypeScript utility for unified constant management with value-label mapping and type-safe access",
     "keywords": [
         "constant",
